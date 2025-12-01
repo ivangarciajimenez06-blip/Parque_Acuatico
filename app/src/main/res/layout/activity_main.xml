@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/imagen_fondo"
+        android:gravity="bottom|center_horizontal"
+        android:paddingBottom="40dp">
+
+        <!-- TEXTO ABAJO -->
+
+        <TextView
+            android:id="@+id/textoWaterPark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WATER"
+            android:textColor="#0A2239"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textoWaterPark2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PARK"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:textColor="#0A2239"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- BOTÓN ABAJO -->
+        <Button
+            android:id="@+id/botonEmpezar"
+            android:layout_width="175dp"
+            android:layout_height="20dp"
+            android:text=""
+            android:textAllCaps="false"
+            android:backgroundTint="#18C4CF"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
