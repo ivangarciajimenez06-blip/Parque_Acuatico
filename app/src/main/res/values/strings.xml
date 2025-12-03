@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Parque_Acuatico</string>
+    <string name="welcome_to_nwater_park">Welcome to\nWater Park</string>
+    <string name="info">Info</string>
+    <string name="map">Map</string>
+    <string name="tickets">Tickets</string>
 </resources>

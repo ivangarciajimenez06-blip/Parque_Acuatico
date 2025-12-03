@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/imagen_fondo"
+    android:padding="20dp">
+
+    <!-- PARTE SUPERIOR (TEXTO) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top|center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="40dp">
+
+        <TextView
+            android:id="@+id/textoBienvenida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_to_nwater_park"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#0A2239"
+            android:gravity="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="40dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/botonGetStarted"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="Get Started"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            app:strokeColor="#000000"
+            app:strokeWidth="3dp"
+            app:backgroundTint="#F57C21"
+            app:cornerRadius="12dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

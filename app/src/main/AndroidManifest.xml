@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Parque_Acuatico">
         <activity
+            android:name=".pantalla3"
+            android:exported="false" />
+        <activity
+            android:name=".pantalla2"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
